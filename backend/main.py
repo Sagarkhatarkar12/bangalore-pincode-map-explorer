@@ -5,7 +5,10 @@ import json
 app = FastAPI();
 app.add_middleware(
    CORSMiddleware,
-    allow_origins=["http://localhost:3000"],
+    allow_origins=[   
+ "http://localhost:3000",
+    "https://6a01d47771d2c60c62b2c71c--bangalore-pincode-map-explorer.netlify.app",  # ← deploy preview URL
+    "https://bangalore-pincode-map-explorer.netlify.app"      ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
