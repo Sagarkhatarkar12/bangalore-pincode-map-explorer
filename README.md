@@ -32,7 +32,10 @@ Backend: Python, FastAPI
    Opens http://localhost:3000
 
 ## Live Demo
-[Add link if deployed, else remove this line]
+Service	URL
+Frontend	https://6a01d47771d2c60c62b2c71c--bangalore-pincode-map-explorer.netlify.app
+Backend	https://bangalore-pincode-map-explorer.onrender.com (Swagger: /docs)
+Frontend is deployed on Netlify, backend on Render.
 
 ## Screenshot
 ![App Screenshot](./image.png)
